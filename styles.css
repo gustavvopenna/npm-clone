@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700');
+
+/* -------------GENERAL SETTINGS--------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* -----------------NAV BAR ------------------- */
+
+.nav-bar {
+  background-color: #B80000;
+  color: white;
+  height: 40px;
+  font-size: 1.5em;
+}
+
+.nav-bar .nav-bar-left {
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+
+.nav-bar .top-links {
+  float: left;
+  width: 40%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.nav-bar .top-links li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.nav-bar .top-links li a,
+.nav-bar .nav-bar-left a  {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar .nav-bar-left .acron {
+  padding-left: 20px;
+}
