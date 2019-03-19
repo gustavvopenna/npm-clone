@@ -12,7 +12,11 @@ body {
   font-weight: 300;
 }
 
-/* -----------------NAV BAR ------------------- */
+.clear-fix {
+  clear: both;
+}
+
+/* --------------------NAV BAR ------------------- */
 
 .nav-bar {
   background-color: #B80000;
@@ -50,4 +54,266 @@ body {
 
 .nav-bar .nav-bar-left .acron {
   padding-left: 20px;
+}
+
+/* ------------------------HEADER---------------------- */
+/*TOP BAR*/
+.header {
+  background-image: url(images/city-scape.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.header .top-bar {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+}
+
+.header .top-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header .top-bar li {
+  display: inline-block;
+}
+
+.header .top-bar .npm-logo, 
+.header .top-bar .search-bar,
+.header .top-bar a,
+.header .top-bar .bear-logo {
+  float: left;
+}
+
+.top-bar .npm-logo {
+  width: 10%;
+  margin: 0;
+}
+
+.top-bar .npm-logo img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.top-bar .search-bar {
+  margin-top: 10px;
+  border: 1px solid rgba(76, 146, 183, 0.5);
+  background-color: #094F74;
+  width: 73%;
+  height: 45px;
+  position: relative;
+}
+
+.top-bar .search-bar span {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: gray;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+
+.top-bar .sign-up-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 20px 0 0 40px; 
+}
+
+.top-bar .bear-logo {
+  width: 50px;
+  height: auto;
+  padding: 10px 0 0 0;
+}
+
+/* CENTRAL CONTENT */
+
+.central-content {
+  width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.central-content h1 {
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.central-content p {
+  font-size: 1.7em;
+  padding: 0px 300px 0px 10px;
+  margin-bottom: 40px;
+  line-height: 1.5em;
+}
+
+.central-content .btn-sign-up {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  background-color: rgb(240, 146, 51);
+  border: 1px solid rgb(240, 146, 51);
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-left: 20px; 
+}
+
+/* ---------------NPM ORGS SECTION---------------- */
+
+#npm-orgs-section {
+  height: 650px;
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.container {
+  width: 75%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.npm-orgs-image {
+  width: 60%;
+  float: left;
+}
+
+.npm-orgs-info {
+  width: 40%;
+  float: left;
+}
+
+.npm-orgs-info h2 {
+  font-size: 3em;
+  font-weight: 300;
+  padding-left: 50px;
+}
+
+.npm-orgs-info ul {
+  padding-left: 65px; 
+}
+
+.npm-orgs-info li {
+  line-height: 4em;
+  font-size: 1.3em;
+}
+
+.npm-orgs-info .btn-orgs {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  background-color: rgb(203, 56, 55);
+  border: 1px solid rgb(203, 56, 55);
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-left: 50px; 
+}
+
+.npm-orgs-info p {
+  font-size: 1.3em;
+  margin: 20px 0 0 50px;
+}
+
+.npm-orgs-info p a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+
+/* ----------------WHAT ABOUT NPM SECTION--------------- */
+
+#what-about-section {
+  height: 650px;
+  position: relative;
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+}
+
+.what-about-content {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 25%;
+}
+
+.what-about-content h3 {
+  font-size: 3em;
+  font-weight: 300;
+  color: white;
+}
+
+.what-about-content p {
+  color: white;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  padding: 0 0 20px 20px;
+}
+
+.what-about-content .btn-about {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  background-color: rgb(49, 68, 88);
+  border: 1px solid rgb(49, 68, 88);
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-left: 20px; 
+}
+
+/* -------------------BLOCKS SECTION--------------------- */
+
+.blocks-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blocks-text h3 {
+  font-size: 3.5em;
+  font-weight: 300;
+  margin: 70px 0 25px 0;
+  color: rgb(83, 88, 98);
+}
+
+.blocks-text p {
+  font-weight: 300;
+  font-size: 1.7em;
+  color: rgb(135, 145, 156);
+}
+
+#blocks-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 30px;
+}
+
+.card h5 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 15px 0;
+  color: rgb(83, 88, 98)
+}
+
+.card p {
+  color: rgb(135, 145, 156);
+  font-size: 1.7em;
+  line-height: 1.5em;
+  padding: 0 15px;
+}
+
+.card p a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
 }
